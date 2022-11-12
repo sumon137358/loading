@@ -1,48 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Temperature Hot</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <form class="col-md-6 col-sm-12  m-auto py-5">
-            <div class="input-group mb-3">
-                <input type="text" id="inputBtn" class="form-control" placeholder="Enter a location for Weather ...">
-                <div class="input-group-append">
-                    <button id="searchBtn" type="button" class="btn btn-success">Search</button>
-                </div>
-            </div>
+      <form class="col-md-6 col-sm-12 m-auto py-5">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            id="inputBtn"
+            class="form-control"
+            placeholder="Enter a location for Weather ..."
+          />
+          <div class="input-group-append">
+            <button id="searchBtn" type="button" class="btn btn-success">
+              Search
+            </button>
+          </div>
+        </div>
     
-            <div class="loading-control">
-                <h2 class="text-center" id="loading">
-                    loading
-                </h2>
-               <div  class="dot-button">
-                <span class="text-center" id="wait">.</span>
-            
-               </div>
-             </div>
-        </form>
+        <h1 id="loading">loading <span id="wait">.</span></h1>
 
-  
+      </form>
+
+
     </div>
 
 
-
-
-
-
-
-<script src="index.js"></script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>

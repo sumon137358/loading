@@ -1,28 +1,27 @@
 
-/* .container{
+.container{
     background-color: cadetblue;
     min-height: 100vh;
     text-align: center;
-} */
+}
 
-.loading-control{
-   
+.loading-system{
     text-align: center;
     display: none;
+    
 }
-.dot-button{
-    text-align: center;
-}
-
-.dot-button #wait{
-    margin-top:-50px ;
-    margin-left: 320px;
+#wait{
+   position: relative;
+    margin-top:-40px ;
+    margin-left: 335px;
     display: flex;
     flex-direction: row;
     font-weight: 600;
     font-size: 30px;
     text-align: center;
-    position: relative;
-      
-}
+     
+  
+} 
+
+
 
